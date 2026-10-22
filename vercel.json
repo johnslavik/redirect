@@ -2,6 +2,28 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/poll",
+      "has": [
+        {
+          "type": "host",
+          "value": "ilikepython.com"
+        }
+      ],
+      "destination": "https://forms.gle/dtrNkCUJrE7DZQJE7",
+      "permanent": false
+    },
+    {
+      "source": "/pep846",
+      "has": [
+        {
+          "type": "host",
+          "value": "ilikepython.com"
+        }
+      ],
+      "destination": "https://discuss.python.org/t/pep-846-docstrings-for-type-aliases/109116",
+      "permanent": false
+    },
+    {
       "source": "/:path(.*)",
       "destination": "https://slawecki.dev/:path*",
       "permanent": false
