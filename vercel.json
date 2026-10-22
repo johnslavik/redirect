@@ -13,6 +13,17 @@
       "permanent": false
     },
     {
+      "source": "/846",
+      "has": [
+        {
+          "type": "host",
+          "value": "ilikepython.com"
+        }
+      ],
+      "destination": "https://discuss.python.org/t/pep-846-docstrings-for-type-aliases/109116",
+      "permanent": false
+    },
+    {
       "source": "/pep846",
       "has": [
         {
